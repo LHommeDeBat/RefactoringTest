@@ -4,7 +4,7 @@ public class Calculator extends SuperCalculator {
 	// Test Fork
     private String resultAsText;
 
-    public final static int MULTIPLIER = 10;
+    FINAL final static int MULTIPLIER = 10;
 
     @Override
     public double addition(double a, double b) {
@@ -23,6 +23,7 @@ public class Calculator extends SuperCalculator {
         return a / b;
     }
 }
+
 
 
 
