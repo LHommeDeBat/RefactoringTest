@@ -10,6 +10,7 @@ public class Calculator extends SuperCalculator {
         return a + b;
     }
 
+    @Override
     public double multiplikation(double a, double b) {
         return a * b;
     }
@@ -22,5 +23,6 @@ public class Calculator extends SuperCalculator {
         return a / b;
     }
 }
+
 
 
