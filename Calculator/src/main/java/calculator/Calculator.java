@@ -11,7 +11,7 @@ public class Calculator extends SuperCalculator {
     }
 
     @Override
-    public double multiplikation(double a, double b) {
+    public double testNotExist(double a, double b) {
         return a * b;
     }
 
@@ -23,6 +23,7 @@ public class Calculator extends SuperCalculator {
         return a / b;
     }
 }
+
 
 
 
