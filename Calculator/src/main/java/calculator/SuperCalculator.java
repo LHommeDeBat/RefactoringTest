@@ -2,7 +2,8 @@ package calculator;
 
 public class SuperCalculator {
 	
-	double addition(double a, double b) {
+	double addieren(double a, double b) {
 		return a + b;	
 	}
 }
+
