@@ -6,6 +6,7 @@ public class Calculator extends SuperCalculator {
 
     public static final int MULTIPLIER = 10;
 
+    @Override
     public double addition(double a, double b) {
         return a + b;
     }
@@ -22,5 +23,6 @@ public class Calculator extends SuperCalculator {
         return a / b;
     }
 }
+
 
 
